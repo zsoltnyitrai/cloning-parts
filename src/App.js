@@ -37,6 +37,7 @@ function App() {
         <div className='text-center'>
         <Link to='/yahoo'><Button>Yahoo</Button></Link>
         <Link to='/home'><Button>Home</Button></Link>
+        <Link to='/home'><Button>Gmail</Button></Link>
         </div>
         <Route 
           path='/yahoo'
