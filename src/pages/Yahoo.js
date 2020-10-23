@@ -34,8 +34,8 @@ const Yahoo=()=>{
     const accountHandler=()=>{
         return accounts.map(account=>{
             return(
-                <div>
-                <li key={account.name} className='login-box-account-card'>
+                <div key={account.name}>
+                <li className='login-box-account-card'>
                     <div className='login-box-account-profile-pic-box'>
                         <img src={defaultpic} className='login-box-account-profile-pic'></img>
                         <div className='login-box-state-indicator'></div>
@@ -91,6 +91,16 @@ const Yahoo=()=>{
                         <a href="#">Use another account</a>
                     </div>
                 </div>
+                <div className='login-box-left'>
+                    <div className='login-box-left-header'>
+                        Yahoo makes it easy to enjoy what matters most in your world.
+                    </div>
+                    <div className='login-box-left-text'>
+                    Best in class Yahoo Mail, breaking local, national and global news, 
+                    finance, sports, music, movies and more. You get more out of the web, you 
+                    get more out of life.
+                    </div>
+                </div>  
             </div>
         </div>  
     )

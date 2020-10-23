@@ -173,3 +173,22 @@
     line-height: 1rem;
     white-space: normal;
 }
+
+  
+  @media screen and (max-width:2000px){
+    .login-box-left{
+      padding: 50px 380px 50px 10px;
+    }
+  }
+  .login-box-left-header{
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px 0;
+  }
+  .login-box-left-text{
+   font-size: 18px;
+  }
+  @media screen and (max-width:600px){
+    .login-box-left{
+      display: none;
+    }}
