@@ -12,7 +12,7 @@ import {
 import Home from './pages/Home'
 import Yahoo from './pages/Yahoo' 
 import Reddit from './pages/Reddit' 
-
+import Header from './components/Header'
 import Button from 'react-bootstrap/Button'
 
 
@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       {/* <Header basicSubreddits={basicSubreddits}/> */}
       <Router>
-        <div className='text-center'>
+        <div className='text-center main-button-container'>
         <Link to='/home'><Button>Home</Button></Link>
         <Link to='/yahoo'><Button>Yahoo</Button></Link>
         <Link to='/reddit'><Button>Reddit</Button></Link>
