@@ -44,7 +44,7 @@ const RedditRightHeadBar=()=>{
                 <span className='reddit-right-head-bar-dots-icon'><BiDotsHorizontalRounded/></span>
             </div>
             <div className="reddit-right-head-bar-viewmode">
-                <span className='reddit-right-head-bar-view-icon'><RiLayoutBottomFill/></span>
+                <span className='reddit-right-head-bar-viewmode-icon'><RiLayoutBottomFill/></span>
                 <span className='reddit-right-head-bar-flex-arrow-mini'><IoMdArrowDropdown/></span>
             </div>
         </div>

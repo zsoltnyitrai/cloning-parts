@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       {/* <Header basicSubreddits={basicSubreddits}/> */}
       <Router>
-        <div className='text-center main-button-container'>
+        <div className='main-button-container'>
         <Link to='/home'><Button>Home</Button></Link>
         <Link to='/yahoo'><Button>Yahoo</Button></Link>
         <Link to='/reddit'><Button>Reddit</Button></Link>

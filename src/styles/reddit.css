@@ -12,12 +12,12 @@
 
 /* BIG BOX under posts  (should have named it news)*/
 .reddit-main-big-box{
-    max-width: 100%;
+    
     background-color: #dae0e6; 
 
     
 }
-@media  (min-width: 640px){
+@media  (min-width: 960px){
 .reddit-main-big-box {
     padding: 20px 24px;
     box-sizing: border-box;
@@ -25,12 +25,19 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1248px;
-}}
-@media (min-width: 960px){
+}
 .reddit-main-big-box-right{
-    width: 620px;
-}}
+    width: 620px;}
+}
 @media  (min-width: 640px){
+    .reddit-main-big-box-right {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .reddit-main-big-box-left{
+        display: none;
+    }}
+@media  (max-width: 640px){
     .reddit-main-big-box-right {
         max-width: 100%}};
 

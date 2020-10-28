@@ -11,6 +11,7 @@ import post from '../assets/images/post.png'
 import RedditHeader from './RedditParts/RedditHeader'
 import RedditTrendingNews from './RedditParts/RedditTrendingNews';
 import RedditRightHeadBar from './RedditParts/RedditRightHeadBar';
+import RedditRightPost from './RedditParts/RedditRightPost'
 
 const Reddit=()=>{
     const [redditDropdown,setRedditDropwdon]=useState([
@@ -58,7 +59,13 @@ const Reddit=()=>{
                     <div className="reddit-main-big-box-righ-header">
                         Popular posts
                     </div>
-                <RedditRightHeadBar/>
+                    <RedditRightHeadBar/>
+
+                    <RedditRightPost/>
+                    <RedditRightPost/>
+                    <RedditRightPost/>
+                    <RedditRightPost/>
+                    <RedditRightPost/>
                 </div>
             </div>                       
 

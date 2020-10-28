@@ -32,7 +32,16 @@
 .main-button-container{
   background-color: #dae0e6;
   padding: 3px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.1;
 }
 .main-button-container button{
   margin: 2px;
+}
+.main-button-container:hover{
+  opacity: 0.8;
 }
