@@ -12,8 +12,6 @@ import {
 import Home from './pages/Home'
 import Yahoo from './pages/Yahoo' 
 import Reddit from './pages/Reddit' 
-import Header from './components/Header'
-import Button from 'react-bootstrap/Button'
 
 
 function App() {
@@ -33,19 +31,14 @@ function App() {
 ]
   return (
     <div className="App">
-      {/* <Header basicSubreddits={basicSubreddits}/> */}
       <Router>
-        <div className='main-button-container'>
-        <Link to='/home'><Button>Home</Button></Link>
-        <Link to='/yahoo'><Button>Yahoo</Button></Link>
-        <Link to='/reddit'><Button>Reddit</Button></Link>
-        </div>
         <Route 
-          path='/home'
+          path='/'
           exact render={()=><Home
           title={'home-page'}
             />
-          }/>
+          }
+          />
         <Route 
           path='/yahoo'
           exact render={()=><Yahoo

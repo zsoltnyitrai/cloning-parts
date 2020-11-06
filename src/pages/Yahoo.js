@@ -3,6 +3,8 @@ import '../styles/yahoo.css'
 import yahoologo from '../assets/images/yahoo-logo.png'
 import defaultpic from '../assets/images/defaultpic.png'
 import dots from '../assets/images/3dots.png'
+import PageButtons from '../components/PageButtons'
+
 
 const Yahoo=()=>{
     const accounts=[
@@ -102,6 +104,7 @@ const Yahoo=()=>{
                     </div>
                 </div>  
             </div>
+            <PageButtons/>
         </div>  
     )
 }

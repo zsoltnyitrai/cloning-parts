@@ -41,3 +41,13 @@
     .reddit-main-big-box-right {
         max-width: 100%}};
 
+.reddit-header {
+    flex: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: inline-flex;
+    z-index: 80;
+    margin-top: 0;
+}

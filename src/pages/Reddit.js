@@ -7,7 +7,7 @@ import { BiHelpCircle } from "react-icons/bi";
 import { RiLoginBoxFill } from "react-icons/ri";
 import post from '../assets/images/post.png' 
 
-
+import PageButtons from '../components/PageButtons'
 import RedditHeader from './RedditParts/RedditHeader'
 import RedditTrendingNews from './RedditParts/RedditTrendingNews';
 import RedditRightHeadBar from './RedditParts/RedditRightHeadBar';
@@ -68,7 +68,7 @@ const Reddit=()=>{
                     <RedditRightPost/>
                 </div>
             </div>                       
-
+            <PageButtons/>
         </div>
     )
 }
